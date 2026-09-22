@@ -43,3 +43,14 @@ pytest -v
 ---
 
 <!-- Future sessions: add a new "## PW<n> — Lab <X>" section below. -->
+
+## PW1 --- Lab B
+
+**Data Observation:**
+The dataset in `decay_observed.csv` shows an exponential decay of count values over time.
+
+**Model Comparison:**
+Upon visual analysis of the generated plot, the observed data points closely match the theoretical analytical curve ($N(t) = N_0 \cdot e^{-\lambda t}$), validating the exponential decay law.
+
+**Snakemake Automation:**
+The Snakemake pipeline automates the plot generation by running `plot.py` to create and update `figure.png` automatically whenever the input data or script changes.
